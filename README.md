@@ -19,7 +19,7 @@ http://java.dynamotech.com.br:8080/ProvaJavaSondaBE/aeronaves
 - GET -  Retornar uma aeronave
 http://java.dynamotech.com.br:8080/ProvaJavaSondaBE/aeronaves/{id}
 
-- POST -  Adiciona uma. aeronave
+- POST -  Adiciona uma aeronave
 http://java.dynamotech.com.br:8080/ProvaJavaSondaBE/aeronaves
 
 - PUT -  Atualiza os dados de uma aeronave
@@ -70,8 +70,8 @@ Instalação
 -----------------
 Criar a base de dados no MySQL
 Na pasta data estão os arquivos que devem ser utilizados nesta ordem: 
-createdb_aeronaves.sql : criação do schema e do usuário com seus respectivos grants (com perfil de desenvolvimento)
-estruturadb_aeronaves.sql: criação das tabelas e demais objetos do banco de dados
+1) createdb_aeronaves.sql : criação do schema e do usuário com seus respectivos grants (com perfil de desenvolvimento)
+2) estruturadb_aeronaves.sql: criação das tabelas e demais objetos do banco de dados
 
 Após a criação do banco de dados pasta realizar o deplay do WAR de ambos os projetos em um servidor de aplicações apropriado, como o Tomcat.
 
